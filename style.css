@@ -26,3 +26,26 @@ font-size: 13px;
 line-height: 150%;
 color: #FFFFFF;
 }
+.menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1110px;
+  height: 46px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 20px 405px 783px 405px;
+  border: 1px solid #FFFFFF;
+  }
+.navigation1{
+   width: 277,5px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  border:  1px solid #FFFFFF;;
+  }
