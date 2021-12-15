@@ -16,17 +16,17 @@
   display: flex;
   justify-content: space-between;
   width: 1100px;
-  padding: 30px 0 20px 0;
+  padding: 30px 0px 20px 0px;
 }
 .adress-conter {
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 150%;
-color: #FFFFFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  color: #ffffff;
 }
-.menu{
+.menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -37,15 +37,105 @@ color: #FFFFFF;
   font-weight: normal;
   font-size: 14px;
   line-height: 150%;
+  color: #ffffff;
+    border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.color {
+  color: white;
+  text-decoration: none;
+}
+.frame{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 583px 347px 150px 347px;
+ 
+  width: 415px;
+  height: 50px;
+}
+
+.frame1{
+ display: flex;
+ justify-content: center;
+ width: 203px;
+ height: 50px;
+ background: #998431;
+ font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.frame2{
+  display: flex;
+  justify-content: center;
+  width: 182px;
+  height: 50px;
+  background: #998431;
+  font-family: Montserrat;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 20px;
+ text-align: center;
+ letter-spacing: 0.05em;
+ text-transform: uppercase;
+ color: #FFFFFF;}
+
+ .center{
+   background-image: url(/assets/bgc2.png);
+   width: 1920px;
+   height: 900px;
+    }
+  .wrapper2 {
+    margin: 0px 405px 0px;
+    box-sizing: border-box;
+  }
+
+ .border {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 1110px;
+height: 656px;
+border: 3px solid #C4C4C4;
+
+ }
+
+ .text1{
+  font-family: Playfair Display;
+  font-size: 36px;
+  line-height: 150%;
+   color: #FFFFFF;
+  margin: 60px 187px 0px 187px;
+ }
+ .line{
+   width: 160px;
+   height: 0px;
+   border: 1px solid #FFFFFF;
+   margin: 40px 880px 0px 880px;
+ }
+ .text2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
   text-align: center;
   color: #FFFFFF;
-  margin: 20px 405px 783px 405px;
-  border: 1px solid #FFFFFF;
+  width: 733px;
+  height: 192px;
+  margin: 40px 0px 0px;
   }
-.navigation1{
-   width: 277,5px;
-  height: 46px;
-  display: flex;
-  align-items: center;
-  border:  1px solid #FFFFFF;;
+.glass{
+    width: 160px;
+    height: 160px;
+    margin: 50px 0px 0px;
   }
