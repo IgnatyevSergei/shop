@@ -143,7 +143,7 @@
   width: 1920px;
   height: 1038px;
   background-color: #e6e3c4;
-  padding: 80px 0;
+  padding: 80px 0px 0px 0px;
 }
 .collection-content {
   width: 1100px;
@@ -169,6 +169,11 @@
 
 .collection-pictures {
   width: 540px;
+  height: 758px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .column-subtitle {
@@ -226,7 +231,6 @@
   line-height: 150%;
   color: #282828;
   font-weight: 800;
-  
 }
 
 .cell-content {
@@ -248,7 +252,7 @@
 .frame4 {
   display: flex;
   justify-content: center;
-  width: 203px;
+  width: 254px;
   height: 50px;
   background: #998431;
   font-family: Montserrat;
@@ -259,5 +263,87 @@
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  color: #ffffff;
+}
+
+.line2 {
+  width: 160px;
+  height: 0px;
+  border: 1px solid #282828;
+}
+.subcollection {
+  padding-top: 29px;
+}
+
+.degustation {
+  background-color: #282828;
+  width: 1920px;
+  height: 767px;
+}
+.wrapper3 {
+  margin: 0px 405px 0px;
+  box-sizing: border-box;
+  padding-top: 129px;
+}
+
+.degustation-content {
+  width: 1100px;
+  height: 538px;
+  border: 3px solid #c4c4c4;
+  box-sizing: border-box;
+  z-index: 0;
+}
+.degustation-top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.grape {
+  width: 260px;
+  height: 260px;
+  margin: -69px 0px 0px -30px;
+}
+
+.barell {
+  width: 260px;
+  height: 200px;
+  margin: -65px -53px 0px 0px;
+}
+.degustation-entry {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.degustation-centr {
+  width: 490px;
+  height: 74px;
+  font-family: Playfair Display;
+  font-size: 36px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-top: -39px;
+  z-index: 2;
+  display: flex;
+  background-color: #282828;
+  align-items: center;
+  justify-content: center;
+}
+.line3 {
+  width: 118px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  display: flex;
+  align-self: center;
+}
+.degustation-text {
+  width: 539px;
+  height: 72px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
   color: #ffffff;
 }
