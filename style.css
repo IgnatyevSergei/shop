@@ -104,10 +104,20 @@ body {
 .list-item:last-child {
   border: none;
 }
-.list-item:hover{
-  background-color: #F5AE32;
-   }
- 
+
+.link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.link:hover {
+  background-color: #f5ae32;
+  color: #282828;
+}
+
 .button-wrapper {
   width: 425px;
   height: 50px;
@@ -382,7 +392,7 @@ h2 {
 
 input {
   background-color: #282828;
-  color:#fff;
+  color: #fff;
 }
 
 input::placeholder {
@@ -429,50 +439,49 @@ input::placeholder {
   box-sizing: border-box;
   margin: 50px 0 80px 0;
 }
-.bottom-page{
-width: 1920px;
-height: 220px;
-background-color: #998431;
+.bottom-page {
+  width: 1920px;
+  height: 220px;
+  background-color: #998431;
 }
-.wrapper3{
+.wrapper3 {
   margin: 0 405px;
   box-sizing: border-box;
   padding: 50px 0;
 }
-.bottom-content{
+.bottom-content {
   width: 1110px;
   height: 120px;
-  border-top: 1px solid #FFFFFF;
-  border-bottom: 1px solid #FFFFFF;
- }
-.navigtion-bottom{
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.navigtion-bottom {
   height: 60px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  }
-.navigation-list{
-  font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 150%;
-text-align: center;
-color: #FFFFFF;
-display: flex;
-align-items: center;
 }
-.contacts{
+.navigation-list {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.contacts {
   width: 1110px;
   height: 60px;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #FFFFFF;
+  border-top: 1px solid #ffffff;
   align-items: center;
   box-sizing: border-box;
-  
 }
-.adress-bottom{
+.adress-bottom {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -480,24 +489,23 @@ align-items: center;
   line-height: 150%;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
-  
+  color: #ffffff;
 }
-.icon{
+.icon {
   display: flex;
   flex-direction: row;
 }
-.adress-bottom2{
+.adress-bottom2 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   width: 260px;
   height: 60px;
-  border-right: 1px solid #FFFFFF;
-  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
 }
-.adress-bottom1{
+.adress-bottom1 {
   ont-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -505,15 +513,15 @@ align-items: center;
   line-height: 150%;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
-  border-right: 1px solid #FFFFFF;
+  color: #ffffff;
+  border-right: 1px solid #ffffff;
   height: 60px;
   width: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.adress-bottom3{
+.adress-bottom3 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -521,14 +529,14 @@ align-items: center;
   line-height: 150%;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
-   height: 60px;
+  color: #ffffff;
+  height: 60px;
   width: 265px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.adress-bottom4{
+.adress-bottom4 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -536,8 +544,8 @@ align-items: center;
   line-height: 150%;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
-   height: 60px;
+  color: #ffffff;
+  height: 60px;
   width: 235px;
   display: flex;
   align-items: center;
